@@ -1,0 +1,25 @@
+# Header
+menu:
+  Home: /
+  Episodes: /episodes
+  About: /about
+rss: http://feeds.2ftat.com/2FTAT
+
+# Content
+excerpt_link: Read show notes →
+fancybox: false
+
+# Sidebar
+sidebar: right
+widgets:
+- subscribe
+- recent_posts
+
+# Miscellaneous
+itunes: https://itunes.apple.com/us/podcast/two-friends-talking-about/id1021654945
+google_analytics: UA-39001606-4
+favicon: /favicon.png
+twitter: jlengstorf
+google_plus:
+fb_admins:
+fb_app_id:

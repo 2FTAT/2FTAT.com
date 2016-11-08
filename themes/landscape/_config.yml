@@ -1,0 +1,23 @@
+# Header
+menu:
+  Home: /
+  Episodes: /episodes
+  About: /about
+rss: http://feeds.feedburner.com/2FTAT
+
+# Content
+excerpt_link: Show Notes and Resources
+fancybox: false
+
+# Sidebar
+sidebar: right
+widgets:
+- recent_posts
+
+# Miscellaneous
+google_analytics:
+favicon: /favicon.png
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:

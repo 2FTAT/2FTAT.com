@@ -1,0 +1,29 @@
+<% if (theme.rss){ %>
+  <div class="widget-wrap">
+    <h3 class="widget-title">Subscribe to 2FTAT</h3>
+    <div class="widget">
+      <div class="subscribe">
+        <a href="<%= theme.itunes %>" class="subscribe__art-link">
+          <img src="/images/2FTAT-thumb.jpg"
+               alt="Subscribe to 2FTAT on iTunes"
+               class="subscribe__art">
+        </a>
+        <p class="subscribe__text">
+          Subscribe on iTunes:
+          <a href="<%= theme.itunes %>" class="subscribe__badge-link">
+          <img src="/images/link-badge-itunes.png"
+               alt="Subscribe to 2FTAT on iTunes"
+               class="subscribe__badge">
+          </a>
+        </p>
+        <p class="subscribe__text subscribe__podcatcher">
+          RSS for your podcatcher:
+          <input type="text"
+                 value="<%= theme.rss %>"
+                 class="subscribe__rss"
+                 disabled>
+        </p>
+      </div>
+    </div>
+  </div>
+<% } %>
